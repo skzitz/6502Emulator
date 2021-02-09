@@ -14,7 +14,7 @@ int main(){
 	Memory* memory = new Memory();
 	CPU* cpu = new CPU(memory);
 	memory->stack(0) = 0xDE;
-	memory->stack(1) = 0xAD;
+	memory->stack(1) = 0xAD; 
 	memory->stack(2) = 0xBE;
 	memory->stack(3) = 0xEF;
 
